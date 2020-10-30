@@ -7,8 +7,7 @@ addons:
   sonarcloud:
     organization: "federicox"
     token:
-      secure: "0fab031ae26d420f4de4715c6f73cd77b1ed55b5" # encrypted value of your token
+      secure: "0fab031ae26d420f4de4715c6f73cd77b1ed55b5"
 
 script:
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner
